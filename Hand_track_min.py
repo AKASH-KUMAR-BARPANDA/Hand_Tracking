@@ -1,6 +1,4 @@
 import time
-from os import times
-
 import cv2
 import mediapipe as mp
 
@@ -49,7 +47,8 @@ while True:
 
         if Success:
             cv2.imshow("camera",frame)
-            cv2.waitKey(1)
+            if cv2.waitKey(1) & 0xFF == 27:
+                break
         else:
             print("frame not found")
             break
