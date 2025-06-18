@@ -1,6 +1,6 @@
 # ✋ Real-Time Hand Tracking using MediaPipe & OpenCV
 
-![Hand Tracking Banner](https://miro.medium.com/v2/resize:fit:1400/1*Cn7Rgi0uCQ7WXL3F5Q_R3g.gif)
+![Hand Tracking Demo](https://github.com/victordibia/handtracking/blob/master/docs/media/handtrackjs.gif?raw=true)
 
 > A real-time hand tracking application using Python, MediaPipe, and OpenCV — implemented in both a modular (OOP) and a script-based format.
 
